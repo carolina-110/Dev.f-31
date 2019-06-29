@@ -1,0 +1,25 @@
+.contenedor{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background: violet;
+    flex-direction: row;
+}
+
+.elemento1{
+    background: red;
+    height: 100px;
+    width: 100px;
+}
+
+.elemento2{
+    background: blue;
+    height: 100px;
+    width: 100px;
+}
+
+.elemento3{
+    background: green;
+    height: 100px;
+    width: 100px;
+}
