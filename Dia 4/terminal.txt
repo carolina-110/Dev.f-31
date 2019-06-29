@@ -5,6 +5,7 @@ git status  -> Ver cuales ya se subieron y cuales no
 git add (nombre del archivo)    ->Para decir cual subir 
 git add -A  ->Subir todo lo de la carpeta
 git commit -m "Aqui se escriben los comentarios" 
+git push origin master -> ya para que se suba suba 
 
 
 --primero checo que carpeta es la que quiero subir ya que entro con ls y cd hasta encontrarla
@@ -16,3 +17,5 @@ git commit -m "Aqui se escriben los comentarios"
 -- luego con gitt add eliges cual subir o git -A para subir todo
 
 -- luego git commit -m "" y ai escribes tus comentarios
+
+--Para subir subir pones git push origin master
