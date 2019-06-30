@@ -104,17 +104,59 @@ jugar("piedra", "papel ")
 let numeros = ["3", "6", "1", "5", "12", "10", "90", "9", "12", "20"]
 
 function no3(a) {
-    let numeros = ["3", "6", "1", "5", "12", "10", "90", "9", "12", "20"]
+
     let numeros2 = []
 
-    for (i = 0; i < numeros.length; i++) {
-        if (numeros[i] % 3 != 0) {
-            numeros2.push(numeros[i])
+    for (i = 0; i < a.length; i++) {
+        if (a[i] % 3 != 0) {
+            numeros2.push(a[i])
 
-            
-        } 
+
+        }
     }
     console.log(numeros2)
 }
 
 no3(numeros)
+
+//////////////////////////////////////////////////////////
+
+// Primera letra de tu primer apellido
+// Primera vocal de tu primer apellido
+// Primera letra del segundo apellido
+// Primera letra primer nombre
+// Dos últimos del año de nacimiento
+// mes de nacimiento en dos dígitos
+// Dos digitos del día de nacimiento
+// HOMOCLAVE 
+
+
+//nombre, apellidoP, apellidoM, dia, mes, año, homoclave
+
+//let nombre = "".split("");
+
+
+
+
+function curp(nom, apeP, apeM, anio, mes, dia, homo) {
+    let vocal = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+    //let apeP = "".split("");
+    let guardar = []
+    //debugger;
+    for (i = 1; i < apeP.length; i++) {
+        for (j = 0; j < vocal.length; j++) {
+            if (apeP[i] === vocal[j]) {
+                guardar.push(apeP[i])
+                break;
+
+            }
+        }
+    }
+
+    const rfc = (apeP[0] + guardar[0] + apeM[0] + nom[0] + anio[2] + anio[3] + mes + dia + homo).toUpperCase();
+
+    console.log(rfc)
+
+}
+
+curp("carolina", "pino", "sosa", "1996", "01", "12", "xxx")

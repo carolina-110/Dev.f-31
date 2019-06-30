@@ -1,3 +1,5 @@
+!!  INICIO  !!
+
 ls  -> Muestra los elementos
 cd  -> Nos movemos a una carpeta
 git init  ->Iniciar git repositorio
@@ -19,3 +21,23 @@ git push origin master -> ya para que se suba suba
 -- luego git commit -m "" y ai escribes tus comentarios
 
 --Para subir subir pones git push origin master
+
+
+///////////////////////////////////////////////////////////////////////////////////
+
+!!!  SI SE BORRA TODO   !!!
+
+git clone   -> clonamos nuestra carpeta
+
+Nos metemos a git en la carpeta que queremos le damos al boton de clonar se copia la url y en la terminal
+
+-- escribimos git clone espacio y pegamos lo que cpiamos anteriormente
+
+//////////////////////////////////////////////////////////////////////////////
+
+!!  DESCARGAR 
+
+git pull origin master
+
+E la terminal entramos a la carpeta donde queremos que se nos baj la info que es la misma de donde habiamos subido y ya solo escribimos 
+git pull origin master y ya se actualiza esa carpeta
