@@ -1,0 +1,52 @@
+#logo{
+    height: 45px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.my-navbar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+/* 0px - 540px */
+@media(max-width:540px){
+    .title{
+        text-align: center;
+    }
+
+}
+
+/* 540px - 720px */
+@media(min-width:540px){
+    .title{
+        text-align: center;
+    }
+
+}
+
+/* 720px - 960px */
+@media(min-width:720px){
+    .title{
+        text-align: left;
+    }
+
+}
+
+/* 1140px - y mas */
+@media(min-width:1140px){
+    .title{
+        text-align: left;
+    }
+
+}
+
+/* .card{
+    width: 30%;
+} */
