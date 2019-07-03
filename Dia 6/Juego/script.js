@@ -67,7 +67,7 @@ function jugar() {
 
 
     } else if (j1 === "piedra" && j2 === "papel") {
-        cdocument.getElementById("ganador").innerHTML = "El ganador es jugador 2";
+        document.getElementById("ganador").innerHTML = "El ganador es jugador 2";
 
 
 
