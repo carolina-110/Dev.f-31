@@ -1,80 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
 </head>
+
 <body>
     <section class="container">
-
-        <h1>Velocidad</h1>
-        <div >
-            <label >Velocidad</label>
-            <textarea  id="velocidad"></textarea>
-          </div>
-          <div >
-            <label >Distancia</label>
-            <textarea  id="distancia" ></textarea>
-          </div>
-          <div >
-            <label >Tiempo</label>
-            <textarea  id="tiempo" ></textarea>
-          </div>
-    
-          <button onclick="obtener();" type="button" class="btn btn-primary">Guardar</button>
-    </section>
-    
-    <section class="container">
-
-        <h1>Fuerza</h1>
         <div class="form-group">
-            <label for="exampleFormControlTextarea1">Fuerza</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Masa</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" ></textarea>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Aceleracion</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" ></textarea>
-          </div>
-    
-          <button type="button" class="btn btn-primary">Guardar</button>
-    </section>
-
-    <section class="container">
-
-        <h1>Aceleracion</h1>
+            <label for="formGroupExampleInput">velocidad</label>
+            <input type="text" class="form-control " id="velocidad" oninput="deshabilitar()">
+        </div>
         <div class="form-group">
-            <label for="exampleFormControlTextarea1">Aceleracion</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">VF</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" ></textarea>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">VI</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" ></textarea>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Tiempo</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" ></textarea>
-          </div>
-    
-    
-          <button type="button" class="btn btn-primary">Guardar</button>
-    </section>
+            <label for="formGroupExampleInput2">distancia</label>
+            <input type="text" class="form-control " id="distancia" oninput="deshabilitar()">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput3">tiempo</label>
+            <input type="text" class="form-control  " id="tiempo" oninput="deshabilitar()">
+        </div>
 
+    </section>
 
 
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
