@@ -1,5 +1,33 @@
+.disabled{
+    cursor: not-allowed !important;
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
 #logo{
     height: 45px;
+}
+
+.inicio{
+    display: flex;
+   
+    flex-direction: row;
+    align-items: flex-start;
+   
+}
+body{
+    height: 100%;
+   
+    background-image: linear-gradient(to right, #007991 , #78ffd6);
+}
+
+.texto{
+    border: 5px solid greenyellow;
+    background-color: yellowgreen;
 }
 
 .menu{
